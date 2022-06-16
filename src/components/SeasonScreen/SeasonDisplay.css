@@ -1,0 +1,29 @@
+.leftIcon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.rightIcon {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+.msg {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.msg.winter i {
+  color: blue;
+}
+.msg.summer i {
+  color: red;
+}
+.winter {
+  background-color: lightblue;
+}
+.summer {
+  background-color: orange;
+}
